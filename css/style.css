@@ -5,6 +5,17 @@
 }
 
 
+body{
+ position:relative;
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+
+
+
+
 .container-1{
   position:relative;
   height: 100%;
@@ -250,6 +261,35 @@ button{
 }
 
 
+.paragrafo p{
+  position:relative;
+  top:200px;
+  color:white;
+  font-size:30px;
+
+      
+     
+      text-align: center;
+}
+
+
+
+.cabecalho-link { 
+  position:center;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media screen and (max-width: 500px) {
   .cabecalho-link { 
@@ -261,26 +301,12 @@ button{
     float: none;
   }
 
+}
 
    
-.cabecalho-link { 
-  position:center;
-  float: left;
-  text-align: center;
-  padding: 12px;
-  text-decoration: none;
-  font-size: 18px;
-  line-height: 25px;
-  border-radius: 4px;
-}
 
 
-.paragrafo{ 
-  position:center;
-  color:#fff;
-  font-size:30px;
-  font-family:"Calibri";
-}
+
 
 
 
