@@ -6,11 +6,12 @@
 
 
 body{
+  display:block;
  position:relative;
   height: 100%;
   width: 100%;
-  background-repeat: no-repeat;
-  background-size:cover;
+  background-repeat: ;  
+    background-size:cover;
 }
 
 
@@ -283,11 +284,15 @@ button{
 
 
 
+@media screen and(max-width:500px){
+ .container-title{
+       position: absolute;
+     top:60px;
+	
+   
+                  }
 
-
-
-
-
+}
 
 
 
@@ -296,12 +301,44 @@ button{
     float: none;
     display: block;
     text-align: left;
-  }
-    .cabecalho-link-right {
-    float: none;
-  }
+
+	            }
 
 }
+
+@media screen and (max-width: 500px) {
+  .cabecalho-logo { 
+    float: none;
+    display: block;
+    text-align: left;
+
+	            }
+
+}
+
+@media screen and (max-width: 500px) {
+  .Main-image { 
+    position:relative;
+   right:-350px;
+    
+	            }
+
+}
+
+
+@media screen and(max-width:500px){
+ .section-title{
+       position: relative;
+     top:-60px;
+	
+   
+                  }
+
+}
+
+
+
+
 
    
 
