@@ -4,13 +4,16 @@
   box-sizing:border-box;
 }
 
+
 body{
-  position:center;
+ position:relative;
   height: 100%;
   width: 100%;
   background-repeat: no-repeat;
-  background-size:cover; 
+  background-size:cover;
 }
+
+
 
 
 .container-1{
@@ -18,7 +21,9 @@ body{
   height: 100%;
   width: 100%;
   background-repeat: no-repeat;
-  background-size:cover; 
+  background-size:cover;
+ 
+ 
 }
 
 
@@ -260,6 +265,7 @@ button{
   position:relative;
   top:200px;
   color:white;
+  font-size:30px;
 
       
      
